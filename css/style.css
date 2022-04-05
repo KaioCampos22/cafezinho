@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    padding-top: 20vh;
+    display: flex;
+    margin: auto 0;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+
+#cheio {
+    width: 100px;
+    height: 3.5vh;
+    background-color: rgb(77, 43, 3);
+    margin-right: 20px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#beber {
+    width: 100px;
+    height: 3.5vh;
+    background-color: rgb(77, 43, 3);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.msg {
+    margin-top: 50vh;
+    width: 50vh;
+    height: 10vh;
+    background-color: rgba(120, 64, 0, 0.68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    display: none;
+}
+
+.msg p {
+
+    color: white;
+}
+
+#tava {
+    margin-top: 30px;
+    width: 130px;
+    height: 3.5vh;
+    background-color: rgb(77, 43, 3);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#seboso {
+    width: 100px;
+    height: 3.5vh;
+    background-color: rgb(77, 43, 3);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.dudu1 {
+    width: 50vh;
+    height: 80vh;
+    display: none;
+}
+
+.dudu2 {
+    width: 50vh;
+    height: 80vh;
+    display: none;
+}
+
+.voltar {
+    display: none;
+    width: 100px;
+    height: 3.5vh;
+    background-color: rgb(77, 43, 3);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
