@@ -11,18 +11,14 @@ const voltar = document.querySelector('.voltar')
 
 function cafeCheio() {
     copo.src = 'img/cafe-cheio.png'
+    beber.style.display = "block"
+    cheio.style.display = "none"
 }
 function beberCafe() {
-    if (cafeCheio()) {
-        alert('Por favor, coloque o café antes')
-        copo.src = 'img/cafe-vazio.png'
-    }
-    else (!cafeCheio()); {
-        copo.classList.add('.msg')
-        msg.style.display = "flex"
-        copo.style.display = "none"
-        buttons.style.display = "none"
-    }
+    copo.classList.add('.msg')
+    msg.style.display = "flex"
+    copo.style.display = "none"
+    buttons.style.display = "none"
 }
 
 function tavaGostoso() {
@@ -33,7 +29,6 @@ function tavaGostoso() {
 function tavaSeboso() {
     dudu2.style.display = "block"
     msg.style.display = "none"
-
 }
 
 cheio.addEventListener('click', cafeCheio);
